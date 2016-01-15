@@ -13,6 +13,9 @@
 		8AB4A21B1C4919450020A600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4A21A1C4919450020A600 /* Assets.xcassets */; };
 		8AB4A21E1C4919450020A600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4A21C1C4919450020A600 /* LaunchScreen.storyboard */; };
 		8AB4A2291C4919450020A600 /* VideoHelpScreenDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4A2281C4919450020A600 /* VideoHelpScreenDemoUITests.swift */; };
+		8AB4A2341C491A4C0020A600 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB4A2331C491A4C0020A600 /* CoreGraphics.framework */; };
+		8AB4A2371C491C640020A600 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4A2361C491C640020A600 /* Logo.png */; };
+		8AB4A2381C491CDF0020A600 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4A2351C491B7E0020A600 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		8AB4A2241C4919450020A600 /* VideoHelpScreenDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoHelpScreenDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB4A2281C4919450020A600 /* VideoHelpScreenDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelpScreenDemoUITests.swift; sourceTree = "<group>"; };
 		8AB4A22A1C4919450020A600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB4A2331C491A4C0020A600 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AB4A2351C491B7E0020A600 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		8AB4A2361C491C640020A600 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB4A2341C491A4C0020A600 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		8AB4A2071C4919440020A600 = {
 			isa = PBXGroup;
 			children = (
+				8AB4A2331C491A4C0020A600 /* CoreGraphics.framework */,
 				8AB4A2121C4919440020A600 /* VideoHelpScreenDemo */,
 				8AB4A2271C4919450020A600 /* VideoHelpScreenDemoUITests */,
 				8AB4A2111C4919440020A600 /* Products */,
@@ -77,6 +85,8 @@
 		8AB4A2121C4919440020A600 /* VideoHelpScreenDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8AB4A2351C491B7E0020A600 /* video.mp4 */,
+				8AB4A2361C491C640020A600 /* Logo.png */,
 				8AB4A2131C4919450020A600 /* AppDelegate.swift */,
 				8AB4A2151C4919450020A600 /* ViewController.swift */,
 				8AB4A2171C4919450020A600 /* Main.storyboard */,
@@ -177,9 +187,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB4A2381C491CDF0020A600 /* video.mp4 in Resources */,
 				8AB4A21E1C4919450020A600 /* LaunchScreen.storyboard in Resources */,
 				8AB4A21B1C4919450020A600 /* Assets.xcassets in Resources */,
 				8AB4A2191C4919450020A600 /* Main.storyboard in Resources */,
+				8AB4A2371C491C640020A600 /* Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoHelpScreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.inw.VideoHelpScreenDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoHelpScreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.inw.VideoHelpScreenDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
